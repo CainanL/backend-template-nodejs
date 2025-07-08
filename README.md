@@ -25,40 +25,40 @@ Tecnologias usadas: Node.js, TypeScript, NestJS, TypeORM.
 
 Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 
-<pre lang="markdown"> ``` env
+<pre lang="markdown">  env
 JWT_SECRET=uma_chave_secreta_aqui
 
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
 DB_PASS=12345678
-DB_NAME=postgres ``` </pre>
+DB_NAME=postgres  </pre>
 
 ### 🚀 Rodando em modo desenvolvimento
 
 # Instale as dependências
-<pre lang="markdown"> ``` npm install  ``` </pre>
+<pre lang="markdown">  npm install   </pre>
 
 # Rode o servidor com reload automático
-<pre lang="markdown"> ``` npm run start:dev ``` </pre>
+<pre lang="markdown">  npm run start:dev  </pre>
 
 # 🏗️ Build do projeto
-<pre lang="markdown"> ``` npm run build ``` </pre>
+<pre lang="markdown">  npm run build  </pre>
 
 # ▶️ Rodar em produção (após build)
-<pre lang="markdown"> ``` npm run start:prod ``` </pre>
+<pre lang="markdown">  npm run start:prod  </pre>
 
 
 # 🧩 Migrations com TypeORM
-<pre lang="markdown"> ``` npm run migration:generate ``` </pre>
+<pre lang="markdown">  npm run migration:generate  </pre>
 
 Isso irá gerar uma migration com base nas alterações das entidades.
 
 # Executar as migrations
-<pre lang="markdown"> ``` npm run migration:run ``` </pre>
+<pre lang="markdown">  npm run migration:run  </pre>
 
 # Reverter a última migration
-<pre lang="markdown"> ``` npm run migration:revert ``` </pre>
+<pre lang="markdown">  npm run migration:revert  </pre>
 
 ---
 
